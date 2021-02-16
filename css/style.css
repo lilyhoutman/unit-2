@@ -1,2 +1,4 @@
 /*Add CSS styles here*/
-#mapid { height: 180px; }
+#mapid { 
+	height: 500px;
+	width: 180%; }
