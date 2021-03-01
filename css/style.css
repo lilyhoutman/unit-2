@@ -1,4 +1,42 @@
 /*Add CSS styles here*/
 #mapid { 
-	height: 500px;
-	width: 180%; }
+	height: 400px;
+	width: 80%;
+	display: inline-block; 
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+#panel {
+	width: 16%;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	line-height: 42px;
+}
+
+.range-slider {
+	width: 55%;
+	color: #D42C04;
+}
+
+.step {
+	width: 20%;
+}
+
+.step img {
+	width: 100%;
+}
+
+#forward {
+	float: right;
+	background-color: #FC9C54;
+}
+
+#reverse {
+	float: left;
+	background-color: #FC9C54;
+}
