@@ -5,13 +5,10 @@
         <meta name="viewport" content="width=device-width">
             <title></title>
 
-        <!--put your external stylesheet links here-->
+        <!--external stylesheet links-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="lib/leaflet/leaflet.css">
         <link rel="stylesheet" href="css/style.css">
-        <!--[if IE<9]>
-            <link rel="stylesheet" href="css/style.ie.css">
-        <![endif]-->
-
          <!--you can also place internal styles here;
              place these within <style> tags-->
         
@@ -19,10 +16,44 @@
 
     <body>
         <!--put your initial page content here-->
-		<div id="mapid"></div>
-		<div id="panel"></div>
-        <!--you can also use this space for internal scripts;
-        place these within <script> tags-->
+        <div class="row">
+            <!--title-->
+            <div class="col-md-12">
+                <div id="title">
+                <center><h2>The Decline of Lesbian Bars in the United States</h2></center>
+                <center><h5>Lily Houtman</h5></center>
+            </div>
+        </div>
+    </div>
+    <!--map, using boostrap to make mobile friendly-->
+        <div class="row">
+        <div class="col-md-8">
+		  <div id="mapid"></div>
+            </div>
+    <!--supplementary text to inform narrative-->
+        <div class="col-md-4">
+		  <div id="textid"> 
+            <h4>The Problem</h4>
+            <p>As of 2020, only 15 lesbian bars remained in the United States. The number of bars had been rapidly declining, and in March of 2020, with the onset of the COVID-19 pandemic, the few remaining bars were at risk of closure.</p>
+            <h4>The Data</h4>
+            <p>All data in this map comes from a project by <a href="http://lostwomynsspace.blogspot.com/">Lost Womyn's Spaces</a>, a blog that documents the closure of modern and historical gathering spaces for LGBT+ women.</p>
+            <p><em>Keep scrolling to read more about lesbian bars, or click through the map to experience their decline over the last decade.</em></p>
+            <h4>The Future</h4>
+            <p>With the aim to "celebrate, support, and preserve" the 15 lesbian bars that remained in the United States, the <a href="https://www.lesbianbarproject.com/">Lesbian Bar Project</a> began as a grassroots fundraising effort. Between October 28 and November 25, 2020, the project raised $117,504.50.</p>
+            <p>The Lesbian Bar project rapidly gained <a href="https://www.lesbianbarproject.com/press">public attention</a>, including the support of celebrities such as Lea DeLaria.</p>
+            <p>A core tenant of the project is not only to preserve the bars, but to allow them to thrive in the future. The project's website includes information on each remaining bar, as well as links to those bar's websites.</p>
+            <center><iframe width="80%" height="208" src="https://www.youtube.com/embed/-qW2db4HuqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+            <br>
+            <h4>The History</h4>
+            <p>LGBT+ bars are places of debate. While they have a long history as one of the only gathering spaces for LGBT+ people, they have also faced criticism as spaces that exclude people under the age of 21, as well as those who prefer not to drink alcohol.</p>
+            <p>Those on both sides of the debate about the importance of LGBT+ bars in the modern age will agree that these bars played an important role in the history of the LGBT+ community. Organizations such as <a href="https://lesbianherstoryarchives.org/">The Lesbian Herstory Archives</a> and <a href="https://www.glbthistory.org/">The GLBT Historical Society</a> document this history.</p>
+            <p>In addition to real photos and diaries, historical fiction books such as <a href="https://www.malindalo.com/lastnight"><em>Last Night at the Telegraph Club</em></a> by Malinda Lo document how lesbian bars were some of the very few places that young queer people could find community. Particularly striking to the modern reader, the characters, who live in San Francisco in 1954, have more options for lesbian bars to frequent than are available to a resident of San Francisco today.</p>
+            <h4>Change and Hope</h4>
+            <p>Although lesbian bars have been in rapid decline, there is reason to be hopeful. Though bars themselves may eventually become a thing of the past, increasing acceptance of LGBT+ idenities has allowed LGBT+ youth to find community in other places, both online, and more openly in public.
+        </p>
+          </div>
+            </div>
+        </div>
 
         <!--put your external script links here-->
         <script type="text/javascript" src="lib/jquery-3.5.1.js"></script>
